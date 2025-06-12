@@ -45,7 +45,7 @@ As classes
 `Visitante.java` 
 implementam as funcionalidades do sistema de gestão de projetos de investigação.
 
-As classes `TesteUNIAG.java` e `TesteUNIAGTerminal.java` são utilizadas para testar o sistema de forma interativa e através do terminal, respetivamente.
+As classes `TesteUNIAG.java` e `TesteUNIAGTerminal.java` são utilizadas para testar o sistema de forma interativa e através do terminal.
 
 ## Documentação
 A documentação do projeto está disponível no diretório `docs/`. Esta documentação inclui informações sobre a implementação do sistema e instruções de uso.
