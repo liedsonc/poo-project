@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * Classe Para gerir as ações do menu da aplicação UNIAG.
+ * @author Liedson Correia
+ * @author Deisylene Rocha
+ * @version 1.0
+ */
 public class AcoesMenu {
     private final UNIAG uniag;
     private final Scanner scanner;

@@ -1,9 +1,11 @@
+/**
+ * Teste da classe UNIAG, Investigador, Projeto e InvColaborador.
+ * @author Liedson Correia
+ * @author Deisylene Rocha
+ * @version 1.0
+ */
 public class TesteUNIAG {
     public static void main(String[] args) {
-        // Criação de um investigador}
-        UNIAG uniag = new UNIAG();
-        uniag.addInvestigador(1, "João Silva");
-        System.out.println(uniag.getInvestigadores());
 
         Investigador inv1 = new Investigador(1, "João Silva");
         Investigador inv2 = new Investigador(2, "Pedro Silva");
