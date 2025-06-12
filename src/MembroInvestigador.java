@@ -22,12 +22,12 @@ public class MembroInvestigador {
     public void setNome(String nome) {
         this.nome = nome;
     }
+    // Método para associar um projeto ao membro investigador
+    // Metodo deve ser sobrescrito nas subclasses
     public boolean associarProjeto(Projeto p) {
-        // TODO: Implementar a lógica de associação de um projeto
-        // Somente os investigadores e Investigadores Colaboradores podem associar projetos
-        // can i create the method in the parent class and then override it in the child classes?
         return false;
     }
+
     public void print() {
         // Método para imprimir os detalhes do membro investigador
         System.out.println("ID: " + id + ", Nome: " + nome);
