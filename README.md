@@ -19,6 +19,10 @@ Este projeto foi criado no IDE [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 A estrutura dos principais ficheiros é a seguinte:
 ```
 POO-Trabalho-Prático/
+├── .idea/
+├── docs/
+│   ├── index.html
+│   ├── *
 ├── src/
 │   ├── AcoesMenu.java
 │   ├── InvColaborador.java
@@ -29,6 +33,7 @@ POO-Trabalho-Prático/
 │   ├── TesteUNIAGTerminal.java
 │   ├── UNIAG.java
 │   ├── Visitante.java
+├── .gitignore
  ```
 `AcoesMenu.java` contém os métodos que implementam as ações do menu principal do programa. 
 As classes
@@ -41,6 +46,10 @@ As classes
 implementam as funcionalidades do sistema de gestão de projetos de investigação.
 
 As classes `TesteUNIAG.java` e `TesteUNIAGTerminal.java` são utilizadas para testar o sistema de forma interativa e através do terminal, respetivamente.
+
+## Documentação
+A documentação do projeto está disponível no diretório `docs/`. Esta documentação inclui informações sobre a implementação do sistema, bem como instruções de uso e exemplos de como interagir com o sistema.
+Para aceder à documentação, pode abrir o ficheiro `docs/index.html` no seu navegador web.
 
 ## Requisitos
 Para compilar e executar este projeto, é necessário ter o Java Development Kit (JDK) instalado na sua máquina. O projeto foi desenvolvido e testado com a versão 24.0.1 do JDK, mas deve funcionar com versões mais recentes.

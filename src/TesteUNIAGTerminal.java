@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/**
+ * Classe TesteUNIAGTerminal
+ * @author Liedson Correia
+ * @author Deisylene Rocha
+ * @version 1.0
+ */
 public class TesteUNIAGTerminal {
     private static final UNIAG uniag = new UNIAG();
     private static final Scanner scanner = new Scanner(System.in);
